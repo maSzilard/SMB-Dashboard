@@ -1,26 +1,36 @@
 <template>
   <b-card
     v-if="data"
-    class="card-congratulation-medal"
+    text-variant="center"
+    class="card card-congratulations"
   >
-    <h5>Congratulations 🎉 {{ data.name }}!</h5>
-    <b-card-text class="font-small-3">
-      You have won gold medal
-    </b-card-text>
-    <h3 class="mb-75 mt-2 pt-50">
-      <b-link>${{ kFormatter(data.saleToday) }}</b-link>
-    </h3>
-    <b-button
-      v-ripple.400="'rgba(255, 255, 255, 0.15)'"
-      variant="primary"
-    >
-      View Sales
-    </b-button>
+    <!-- images -->
     <b-img
-      :src="require('@/assets/images/illustration/badge.svg')"
-      class="congratulation-medal"
-      alt="Medal Pic"
+      :src="require('@/assets/images/elements/decore-left.png')"
+      class="congratulations-img-left"
     />
+    <b-img
+      :src="require('@/assets/images/elements/decore-right.png')"
+      class="congratulations-img-right"
+    />
+    <!--/ images -->
+
+    <b-avatar
+      variant="primary"
+      size="70"
+      class="shadow mb-2"
+    >
+      <feather-icon
+        size="28"
+        icon="AwardIcon"
+      />
+    </b-avatar>
+    <h1 class="mb-1 mt-50 text-white">
+      Congratulations {{ data.name }},
+    </h1>
+    <b-card-text class="m-auto w-75">
+      You have been working at SMB Group for <b>8 years</b> today.
+    </b-card-text>
   </b-card>
 </template>
 

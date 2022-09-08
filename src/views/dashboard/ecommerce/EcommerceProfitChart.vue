@@ -4,9 +4,9 @@
     class="card-tiny-line-stats"
     body-class="pb-50"
   >
-    <h6>Profit</h6>
+    <h6>Total Net Sales</h6>
     <h2 class="font-weight-bolder mb-1">
-      6,24k
+      732k
     </h2>
     <!-- chart -->
     <vue-apex-charts

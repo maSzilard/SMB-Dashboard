@@ -3,35 +3,35 @@ import mock from '@/@fake-db/mock'
 const data = {
   congratulations: {
     name: 'John',
-    saleToday: '48900',
+    saleToday: '150',
   },
   statisticsItems: [
     {
       icon: 'TrendingUpIcon',
       color: 'light-primary',
-      title: '230k',
-      subtitle: 'Sales',
+      title: '2000 RON',
+      subtitle: 'wirefence.co.uk',
       customClass: 'mb-2 mb-xl-0',
     },
     {
       icon: 'UserIcon',
       color: 'light-info',
-      title: '8.549k',
-      subtitle: 'Customers',
+      title: '500 RON',
+      subtitle: 'buyrope.co.uk',
       customClass: 'mb-2 mb-xl-0',
     },
     {
       icon: 'BoxIcon',
       color: 'light-danger',
-      title: '1.423k',
-      subtitle: 'Products',
+      title: '100 RON',
+      subtitle: 'hawaiianshirtsonline.co.uk',
       customClass: 'mb-2 mb-sm-0',
     },
     {
       icon: 'DollarSignIcon',
       color: 'light-success',
-      title: '$9745',
-      subtitle: 'Revenue',
+      title: '0 RON',
+      subtitle: 'gothicangelclothing.co.uk',
       customClass: '',
     },
   ],
@@ -54,7 +54,7 @@ const data = {
     series: [53, 16, 31],
   },
   revenue: {
-    years: ['2020', '2019', '2018'],
+    years: ['2022', '2021', '2020'],
     price: '85,852',
     budget: '56,800',
     revenueReport: {
@@ -189,7 +189,7 @@ const data = {
   goalOverview: {
     completed: '786,617',
     inProgress: '13,561',
-    series: [83],
+    series: [91],
   },
   transactionData: [
     {

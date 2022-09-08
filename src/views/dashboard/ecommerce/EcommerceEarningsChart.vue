@@ -9,13 +9,13 @@
           Earnings
         </b-card-title>
         <div class="font-small-2">
-          This Month
+          This Half Year
         </div>
         <h5 class="mb-1">
-          $4055.56
+          £924,831.83
         </h5>
         <b-card-text class="text-muted font-small-2">
-          <span class="font-weight-bolder">68.2%</span><span> more earnings than last month.</span>
+          <span class="font-weight-bolder">9%</span><span> more earnings than last month.</span>
         </b-card-text>
       </b-col>
       <b-col cols="6">
@@ -68,8 +68,8 @@ export default {
             enabled: false,
           },
           legend: { show: false },
-          comparedResult: [2, -3, 8],
-          labels: ['App', 'Service', 'Product'],
+          comparedResult: [12, 5, 1, 1],
+          labels: ['WF', 'BR', 'HSO', 'GAC'],
           stroke: { width: 0 },
           colors: [$earningsStrokeColor2, $earningsStrokeColor3, $themeColors.success],
           grid: {
@@ -98,9 +98,9 @@ export default {
                   total: {
                     show: true,
                     offsetY: 15,
-                    label: 'App',
+                    label: 'WF',
                     formatter() {
-                      return '53%'
+                      return '72%'
                     },
                   },
                 },

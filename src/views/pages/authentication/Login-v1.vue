@@ -13,7 +13,7 @@
         </b-link>
 
         <b-card-title class="mb-1">
-          Welcome to Vuexy! 👋
+          Welcome to SMB Group! 👋
         </b-card-title>
         <b-card-text class="mb-2">
           Please sign-in to your account and start the adventure

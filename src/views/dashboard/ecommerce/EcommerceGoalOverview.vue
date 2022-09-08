@@ -5,7 +5,7 @@
   >
     <b-card-header>
       <h4 class="mb-0">
-        Goal Overview
+        Next Bonus Bracket 
       </h4>
       <b-card-text class="font-medium-5 mb-0">
         <feather-icon
@@ -30,10 +30,10 @@
         class="border-top border-right d-flex align-items-between flex-column py-1"
       >
         <b-card-text class="text-muted mb-0">
-          Completed
+          Same Time Last Year
         </b-card-text>
         <h3 class="font-weight-bolder mb-0">
-          {{ data.completed }}
+          £684,959.50
         </h3>
       </b-col>
 
@@ -42,10 +42,10 @@
         class="border-top d-flex align-items-between flex-column py-1"
       >
         <b-card-text class="text-muted mb-0">
-          In Progress
+          Currently Reached
         </b-card-text>
         <h3 class="font-weight-bolder mb-0">
-          {{ data.inProgress }}
+          £748,678.28
         </h3>
       </b-col>
     </b-row>

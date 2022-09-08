@@ -3,9 +3,9 @@
     v-if="data"
     body-class="pb-50"
   >
-    <h6>Orders</h6>
+    <h6>Total Orders</h6>
     <h2 class="font-weight-bolder mb-1">
-      2,76k
+      2,790
     </h2>
     <!-- chart -->
     <vue-apex-charts

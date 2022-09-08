@@ -5,9 +5,9 @@
   >
     <b-card-header>
       <div>
-        <b-card-title>Browser States</b-card-title>
+        <b-card-title>Social Images </b-card-title>
         <b-card-text class="font-small-2">
-          Counter August 2020
+          October 2021
         </b-card-text>
       </div>
 
@@ -38,36 +38,9 @@
 
     <!-- body -->
     <b-card-body>
-
-      <div
-        v-for="(browser,index) in browserData"
-        :key="browser.browserImg"
-        class="browser-states"
-      >
-        <b-media no-body>
-          <b-media-aside class="mr-1">
-            <b-img
-              :src="browser.browserImg"
-              alt="browser img"
-            />
-          </b-media-aside>
-          <b-media-body>
-            <h6 class="align-self-center my-auto">
-              {{ browser.name }}
-            </h6>
-          </b-media-body>
-        </b-media>
-        <div class="d-flex align-items-center">
-          <span class="font-weight-bold text-body-heading mr-1">{{ browser.usage }}</span>
-          <vue-apex-charts
-            type="radialBar"
-            height="30"
-            width="30"
-            :options="chartData[index].options"
-            :series="chartData[index].series"
-          />
-        </div>
-      </div>
+      <b-media>
+        <img src="@/assets/images/pages/social-images/halloween.jpg" alt="" srcset="" width="550">
+      </b-media>
     </b-card-body>
     <!--/ body -->
   </b-card>
