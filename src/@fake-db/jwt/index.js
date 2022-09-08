@@ -45,6 +45,25 @@ const data = {
         eCommerceCartItemsCount: 5,
       },
     },
+    {
+      id: 3,
+      fullName: 'Magyari Orsolya',
+      username: 'orsi',
+      password: 'admin',
+      // eslint-disable-next-line global-require
+      avatar: require('@/assets/images/avatars/orsi.png'),
+      email: 'orsi@supermagicgroup.co.uk',
+      role: 'admin',
+      ability: [
+        {
+          action: 'manage',
+          subject: 'all',
+        },
+      ],
+      extras: {
+        eCommerceCartItemsCount: 5,
+      },
+    },
   ],
 }
 

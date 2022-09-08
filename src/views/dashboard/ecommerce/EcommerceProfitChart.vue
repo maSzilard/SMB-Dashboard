@@ -10,7 +10,7 @@
     </h2>
     <!-- chart -->
     <vue-apex-charts
-      height="70"
+      height="100"
       :options="statisticsProfit.chartOptions"
       :series="data.series"
     />

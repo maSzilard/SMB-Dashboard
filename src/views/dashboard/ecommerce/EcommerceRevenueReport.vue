@@ -54,11 +54,11 @@
         </b-dropdown>
 
         <h2 class="mb-25">
-          ${{ data.price }}
+          £{{ data.price }}
         </h2>
         <div class="d-flex justify-content-center">
           <span class="font-weight-bolder mr-25">Last Year:</span>
-          <span>56,800</span>
+          <span>£684,959.50</span>
         </div>
         <vue-apex-charts
           id="budget-chart"

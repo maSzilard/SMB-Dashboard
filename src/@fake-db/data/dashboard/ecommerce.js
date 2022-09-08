@@ -39,14 +39,14 @@ const data = {
     series: [
       {
         name: '2020',
-        data: [45, 85, 65, 45, 65],
+        data: [45, 85, 65, 45, 65, 75],
       },
     ],
   },
   statisticsProfit: {
     series: [
       {
-        data: [0, 20, 5, 30, 15, 45],
+        data: [4, 6, 7, 6, 8, 9],
       },
     ],
   },
@@ -55,17 +55,17 @@ const data = {
   },
   revenue: {
     years: ['2022', '2021', '2020'],
-    price: '85,852',
-    budget: '56,800',
+    price: '732,697.01',
+    budget: '684,959.50',
     revenueReport: {
       series: [
         {
           name: 'Earning',
-          data: [95, 177, 284, 256, 105, 63],
+          data: [67, 114, 132, 122, 140, 155],
         },
         {
           name: 'Expense',
-          data: [-145, -80, -60, -180, -100, -60],
+          data: [-3, -1, -4, -2, -5, -3],
         },
       ],
     },
