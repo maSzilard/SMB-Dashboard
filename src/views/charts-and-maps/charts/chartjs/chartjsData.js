@@ -403,7 +403,7 @@ export default {
       },
     },
     data: {
-      labels: ['Africa', 'Asia', 'Europe', 'America', 'Antarctica', 'Australia'],
+      labels: ['WF', 'BR', 'HSO', 'GAC', 'OR', 'PT'],
       datasets: [
         {
           label: 'Population (millions)',
@@ -1156,7 +1156,7 @@ export default {
       ],
       datasets: [
         {
-          label: 'Africa',
+          label: 'HSO',
           data: [40, 55, 45, 75, 65, 55, 70, 60, 100, 98, 90, 120, 125, 140, 155],
           lineTension: 0,
           backgroundColor: chartColors.blueColor,
@@ -1170,7 +1170,7 @@ export default {
           pointHoverBorderColor: $themeColors.light,
         },
         {
-          label: 'Asia',
+          label: 'BR',
           data: [70, 85, 75, 150, 100, 140, 110, 105, 160, 150, 125, 190, 200, 240, 275],
           lineTension: 0,
           backgroundColor: chartColors.blueLightColor,
@@ -1184,7 +1184,7 @@ export default {
           pointHoverBorderColor: $themeColors.light,
         },
         {
-          label: 'Europe',
+          label: 'WF',
           data: [240, 195, 160, 215, 185, 215, 185, 200, 250, 210, 195, 250, 235, 300, 315],
           lineTension: 0,
           backgroundColor: chartColors.greyLightColor,

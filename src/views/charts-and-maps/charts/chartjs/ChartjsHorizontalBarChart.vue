@@ -5,7 +5,7 @@
         <b-card-sub-title class="mb-25">
           Balance
         </b-card-sub-title>
-        <b-card-title>$74,123</b-card-title>
+        <b-card-title>£74,123</b-card-title>
       </div>
       <!-- datepicker -->
       <div class="d-flex align-items-center">

@@ -54,7 +54,7 @@ export default {
   data() {
     return {
       apexChatData,
-      rangePicker: ['2019-05-01', '2019-05-10'],
+      rangePicker: ['2022-05-01', '2022-05-10'],
     }
   },
 }
